@@ -24,7 +24,7 @@
         </div>
 
         <button type="submit" class="btn btn-info">検索</button>
-        <button type="button" class="btn btn-warning"><a href="{{  url('items') }}" class="text-white">クリア</a> </button>
+        
     </form>
 
     <div class="row">

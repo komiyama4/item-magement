@@ -39,6 +39,20 @@
                             </div>
                         </div>
 
+                        <div class="row mb-3">
+                            <label for="role" class="col-md-4 col-form-label text-md-right">{{ __('権限') }}</label>
+
+                            <div class="col-md-6">
+                                <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example" name="role">
+                            
+                                    <option selected>選択してください</option>
+                                    <option value="10">管理者</option>
+                                    <option value="1">一般</option>
+                                </select>
+
+                            </div>
+                        </div>
+
                         <div class="form-group row">
                             <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Password') }}</label>
 
